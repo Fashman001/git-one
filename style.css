@@ -1,0 +1,177 @@
+
+body {
+	background-image: url(sky_copy.jpg);
+	
+	font-family: sans-serif;
+	
+}
+.menu-bar{
+	background: rgb(28,217,226);
+	text-align: center;
+	justify-content: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style:none;
+	color: white;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin:10px;
+	padding:5px;  
+}
+.menu-bar ul li a {
+	text-decoration: none;
+	color: white;
+}
+.menu-bar ul li:hover{
+    background:#2259DC;
+    border-radius: 10px;
+}
+
+.menu-bar .fa{
+	margin-right: 5px;
+}
+.sub {
+	display: none;
+}
+
+.menu-bar ul li:hover .sub{
+	display: block;
+	position: absolute;
+	background: rgb(28,217,226);
+	margin-top: 5px;
+	margin-left: -10px;
+}
+	.menu-bar ul li:hover .sub ul{
+		display: block;
+		margin: 10px;
+		padding: 10px;
+	}
+.menu-bar ul li:hover .sub ul li{
+	width: 120px;
+	border-bottom: 1px dotted white;
+	background:transparent;
+	border-radius: 0px;
+	text-align: center;
+}
+.menu-bar ul li:hover .sub ul li:last-child{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub ul li a:hover{
+	color: yellow;
+}
+.fa-angle-right{
+	float: right;
+}
+
+.fash{
+		background: linear-gradient(120deg, #2980b9, #8e44ad);
+		border: solid 1px white;
+		border-radius: 6px;
+		width: 250px;
+		height: 200px;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.j{
+		border-bottom: solid 6px blue;
+		width: 200px;
+		margin-left: 25px; 
+		font-size: 18px;
+		padding: auto;
+		font-weight: italic;
+		text-align: center;
+
+
+
+	}
+	.h{
+		border-bottom: solid 3px blue;
+		margin-bottom: 60px;
+	}
+	.h input{
+		border:none;
+		outline: none;
+		background:none;
+	}
+	.k{
+		border-bottom: solid 3px blue;
+	}
+    .k input{
+    	border:none;
+    	outline: none;
+    	background:none;
+    }
+    .btn{
+    	width: 70px;
+    	background:blue;
+    	border:solid 2px blue;
+    	margin-top: 130px;
+    	text-align: center;
+    	border-radius: 24px;
+    	cursor: pointer;
+    	
+    	}
+
+	.btn input{
+		background:none;
+		outline: none;
+		border:none;
+		padding: auto;
+		cursor: pointer;
+		color: white;
+		font-size: 16px;
+
+	}
+
+	.up a{
+		color: blue;
+
+	}	
+
+	.up a:hover{
+	color: red;
+	}
+	
+	.our{
+		text-align: center;
+		padding-top: 20px;
+		color: blue;
+		font-size: 16px;
+		font-style: italic;
+		font-weight: bold; 
+	}
+	.josh .fa{
+		color: blue;
+		margin-right: 10px;
+		margin-left: 500px;
+		color: blue;
+		font-size: 18px;
+		font-style: italic;
+		font-weight: bold;
+
+	}
+	.josh ul{
+		list-style: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
